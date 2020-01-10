@@ -116,7 +116,7 @@ class TicTacToe
      turn until over?
      won? ? puts("Congratulations #{winner}!") : puts("Cats Game!")
      puts "Would you like to play again? (Y or N)"
-     gets.strip.downcase == "y" || gets.strip.downcase == "yes" ? play : puts("Goodbye!")
+     gets.strip.downcase == "y" ? play : puts("Goodbye!")
   end
 end
     
