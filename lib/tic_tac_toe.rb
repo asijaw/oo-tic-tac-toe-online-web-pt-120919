@@ -115,8 +115,6 @@ class TicTacToe
   def play 
      turn until over?
      won? ? puts("Congratulations #{winner}!") : puts("Cat's Game!")
-    # puts("Would you like to play again? (Y or N)")
-    # gets.strip == "Y" ? play : puts("Goodbye!")
   end
 end
     
