@@ -114,7 +114,7 @@ class TicTacToe
   # Game palying structure. Plays until the game is over. if someone won, congratulate winner if not tell how it ended. Ask for rematch, if yes start over if no end game.
   def play 
      turn until over?
-     won? ? puts("Congratulations #{winner}!") : puts("Cats Game!")
+     won? ? puts("Congratulations #{winner}!") : puts("Cat's Game!")
     # puts("Would you like to play again? (Y or N)")
     # gets.strip == "Y" ? play : puts("Goodbye!")
   end
