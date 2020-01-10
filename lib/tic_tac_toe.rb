@@ -99,7 +99,7 @@ class TicTacToe
    
   # Determines if the game is over by checking if the board is full or if someone has won
   def over?
-    won? || full?
+    won? || draw?
   end
   
   # Checks who won the game by checking the winning combo's first position
